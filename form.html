@@ -30,23 +30,16 @@
             <label for="password">Password (min 8 characters)</label>
             <input type="password" id="password" required minlength="8">
         </div>
-        <div class="checkbox-and-conditions">
-            <div class="checkbox-box">
-                <input type="checkbox" checked id="agree" checked="unchecked">
-                <span class="checkmark"></span>
-            </div>
-            <div class="checkbox-text">  
-                <label for="agree"><p class="checkbox-typo">I agree to all terms and conditions</p></label>    
-            </div>
-        </div>
-        <label class="checktest"><p class="checkbox-typo">One</p>
-            <input type="checkbox" checked="checked">
+
+<!--I grabbed this following section from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp and it works just the way I want it to, but I don´t really get what I´m doing here :/ -->
+        
+        <label class="checktest"><p class="checkbox-typo">I agree to all terms and conditions</p>
+            <input type="checkbox">
             <span class="checkmark"></span>
         </label>
-        <label class="checktest">Two
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-        </label>
+
+<!--End of I don´t really get what I´m doing-->
+
         <button type="submit">Submit</button>
     </form>
 </body>
