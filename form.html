@@ -30,10 +30,14 @@
             <label for="password">Password (min 8 characters)</label>
             <input type="password" id="password" required minlength="8">
         </div>
-        <!-- <div class="label-and-input"> -->
-            <input type="checkbox" checked id="agree">
-            <label for="agree">I agree to all terms and conditions</label>
-        <!-- </div> -->
+        <div class="checkbox-and-conditions">
+            <div class="checkbox-box">
+                <input type="checkbox" checked id="agree">
+            </div>
+            <div class="checkbox-text">  
+                <label for="agree" class="checkbox-typo">I agree to all terms and conditions</label>    
+            </div>
+        </div>  
         <button type="submit">Submit</button>
     </form>
 </body>

@@ -41,7 +41,42 @@ textarea {
     padding: 15px;
 }
 
+.checkbox-and-conditions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox-box {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-text {
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.checkbox-typo {
+    margin: 50;
+    color: red;
+}
+
 button {
     height: 50px;
     width: 200px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(41, 41, 41);
+    cursor: pointer;
 }
