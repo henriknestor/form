@@ -59,14 +59,49 @@ textarea {
 }
 
 .checkbox-text {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 50px;
 }
 
 .checkbox-typo {
-    margin: 50;
-    color: red;
+    font-size: medium;
+    padding-top: 4px;
 }
+
+.checktest {
+        background-color: aquamarine;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+
+.checktest input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  .checktest:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
 
 button {
     height: 50px;

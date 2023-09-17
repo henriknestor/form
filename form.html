@@ -32,12 +32,21 @@
         </div>
         <div class="checkbox-and-conditions">
             <div class="checkbox-box">
-                <input type="checkbox" checked id="agree">
+                <input type="checkbox" checked id="agree" checked="unchecked">
+                <span class="checkmark"></span>
             </div>
             <div class="checkbox-text">  
-                <label for="agree" class="checkbox-typo">I agree to all terms and conditions</label>    
+                <label for="agree"><p class="checkbox-typo">I agree to all terms and conditions</p></label>    
             </div>
-        </div>  
+        </div>
+        <label class="checktest"><p class="checkbox-typo">One</p>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <label class="checktest">Two
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
         <button type="submit">Submit</button>
     </form>
 </body>
