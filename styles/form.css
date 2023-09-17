@@ -1,0 +1,38 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: brown;
+    margin: 0 auto 0;
+    width: 90%;
+    max-width: 400px;
+}
+
+form {
+    background-color: rgb(163, 163, 236);
+}
+
+.label-and-input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+select {
+    background-color: blueviolet;
+    height: 50px;
+    max-width: 400px;
+}
+
+input {
+    background-color: blueviolet;
+    height: 50px;
+    max-width: 400px;
+}

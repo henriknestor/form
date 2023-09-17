@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Team chooser</h1>
+        <form action="">
+            <div class="label-and-input">
+                <label for="Choose team">Choose team</label>
+                <select name="" id="Choose team">
+                    <option value="Djurgården">Djurgården</option>
+                    <option value="AIK">AIK</option>
+                    <option value="Hammarby">Hammarby</option>
+                </select>
+            </div>
+            <div class="label-and-input">
+                <label for="E-mail">E-mail</label>
+                <input type="email" id="E-mail" placeholder="Your e-mail">
+            </div>
+                <label for="message">Message</label>
+            <textarea name="Message" id="message" cols="10" rows="3"></textarea>
+            <label for="password">Password (min 8 characters)</label>
+            <input type="password" id="password" required minlength="8">
+            <label for="agree">I agree to all terms and conditions</label>
+            <input type="checkbox" checked id="agree">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
