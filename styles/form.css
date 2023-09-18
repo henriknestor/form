@@ -36,10 +36,15 @@ select, input, textarea {
     height: 50px;
     max-width: 400px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 textarea {
     padding: 15px;
+}
+
+select:hover, input:hover, textarea:hover {
+  background-color: #f0f0f0
 }
 
 .checkbox-typo {
@@ -81,7 +86,7 @@ textarea {
   }
 
   .checktest:hover input ~ .checkmark {
-    background-color: #ccc;
+    background-color: #f0f0f0;
   }
 
   .checktest input:checked ~ .checkmark {
